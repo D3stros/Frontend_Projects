@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body {
+  background-image: url(../images/got_smaller.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  color: #fff!IMPORTANT;
+  transition: all 300ms ease;
+  font-family: 'Montserrat', sans-serif;
+  transition: all 300ms ease;
+}
+
+button#random_button:hover {
+  background-color:rgba(255, 223, 223, 0.342)!important;
+}

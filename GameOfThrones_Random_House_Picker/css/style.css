@@ -25,9 +25,86 @@ button#random_button:hover {
 	background-repeat:no-repeat;
 	max-width:500px;
 	margin:0 auto;
-	text-align:center;
+  text-align:center;
+  display:hidden;
 }
 
-.random-image-01 {background-image:url('http://placehold.it/500x250&text=Image+01');}
-.random-image-02 {background-image:url('http://placehold.it/500x250&text=Image+02');}
-.random-image-03 {background-image:url('http://placehold.it/500x250&text=Image+03');}
+#targaryen, #tyrell, #lannister, #stark, #tully, #baratheon {
+  display:none;
+}
+
+
+
+:root{
+  --targaryen-face: 353.226;
+  --targaryen-head: 309.813;
+  --tyrell-flower: 532.64;
+  --tyrell-nectar: 96.482;
+  --lannister-outterMane: 352.3;
+  --lannister-innerMane: 212.994;
+  --lannister-face: 181.503;
+  --stark-body: 385.056;
+  --stark-face: 267.407;
+  --tully-body: 434.09;
+  --tully-parts: 72.158;
+  --baratheon-face: 399.665;
+  --baratheon-x: 248.765;
+}
+body {
+  background-color: hsl(0, 0%, 11%);
+  overflow: hidden;
+}
+path{
+  transition: 1s ease-in;
+}
+#targaryen{
+  .face{
+     stroke-dasharray: var(--targaryen-face);
+  }
+  .head{
+     stroke-dasharray: var(--targaryen-head);
+  }
+}
+#tyrell{
+  .flower{
+     stroke-dasharray: var(--tyrell-flower);
+  }
+  .nectar{
+     stroke-dasharray: var(--tyrell-nectar);
+  }
+}
+#lannister{
+  .outterMane{
+     stroke-dasharray: var(--lannister-outterMane);
+  }
+  .innerMane{
+     stroke-dasharray: var(--lannister-innerMane);
+  }
+  .face{
+     stroke-dasharray: var(--lannister-face);
+  }
+}
+#stark{
+  .body{
+     stroke-dasharray: var(--stark-body);
+  }
+  .face{
+     stroke-dasharray: var(--stark-face);
+  }
+}
+#tully{
+  .body{
+     stroke-dasharray: var(--tully-body);
+  }
+  .parts{
+     stroke-dasharray: var(--tully-parts);
+  }
+}
+#baratheon{
+  .face{
+     stroke-dasharray: var(--baratheon-face);
+  }
+  .eyeshears, .hornext{
+     stroke-dasharray: var(--baratheon-x);
+  }
+}

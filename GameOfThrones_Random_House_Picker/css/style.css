@@ -23,7 +23,7 @@ button#random_button:hover {
   height: 250px;
   background-size: contain;
   background-repeat: no-repeat;
-  max-width: 500px;
+  max-width: 560px;
   margin: 0 auto;
   text-align: center;
   display: hidden;

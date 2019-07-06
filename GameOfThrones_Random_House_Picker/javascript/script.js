@@ -1,5 +1,3 @@
-
-
 function randomImage(){
     var randomNumber = Math.floor((Math.random() * 6) + 1);
 	var el = document.getElementById("random-image-container");

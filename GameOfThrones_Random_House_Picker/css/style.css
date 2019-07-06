@@ -14,3 +14,20 @@ body {
 button#random_button:hover {
   background-color:rgba(255, 223, 223, 0.342)!important;
 }
+
+#random-image-container {
+	background-color: $zg-transparent-black;
+	padding:15px;
+	margin-bottom:15px;
+	border-radius:7px;
+	height:250px;
+	background-size:contain;
+	background-repeat:no-repeat;
+	max-width:500px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.random-image-01 {background-image:url('http://placehold.it/500x250&text=Image+01');}
+.random-image-02 {background-image:url('http://placehold.it/500x250&text=Image+02');}
+.random-image-03 {background-image:url('http://placehold.it/500x250&text=Image+03');}

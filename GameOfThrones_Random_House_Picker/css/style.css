@@ -1,3 +1,5 @@
+
+
 body {
   background-image: url(../images/got_smaller.jpg);
   background-repeat: no-repeat;
@@ -10,33 +12,38 @@ body {
 }
 
 button#random_button:hover {
-  background-color:rgba(255, 223, 223, 0.342)!important;
+  background-color: rgba(255, 223, 223, 0.342)!important;
 }
 
 #random-image-container {
-	background-color: $zg-transparent-black;
-	padding:15px;
-	margin-bottom:15px;
-	border-radius:7px;
-	height:250px;
-	background-size:contain;
-	background-repeat:no-repeat;
-	max-width:500px;
-	margin:0 auto;
-  text-align:center;
-  display:hidden;
+  background-color: $zg-transparent-black;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 7px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  display: hidden;
 }
 
-#targaryen, #tyrell, #lannister, #stark, #tully, #baratheon {
-  display:none;
+#targaryen,
+#tyrell,
+#lannister,
+#stark,
+#tully,
+#baratheon {
+  display: none;
 }
 
 p#house_text {
-  font-size:36px;
-  text-align:center;
+  font-size: 36px;
+  text-align: center;
 }
 
-:root{
+:root {
   --targaryen-face: 353.226;
   --targaryen-head: 309.813;
   --tyrell-flower: 532.64;
@@ -51,61 +58,71 @@ p#house_text {
   --baratheon-face: 399.665;
   --baratheon-x: 248.765;
 }
+
 body {
   background-color: hsl(0, 0%, 11%);
   overflow: hidden;
 }
-path{
+
+path {
   transition: 1s ease-in;
 }
-#targaryen{
-  .face{
+
+#targaryen {
+  .face {
      stroke-dasharray: var(--targaryen-face);
   }
-  .head{
+  .head {
      stroke-dasharray: var(--targaryen-head);
   }
 }
-#tyrell{
-  .flower{
+
+#tyrell {
+  .flower {
      stroke-dasharray: var(--tyrell-flower);
   }
-  .nectar{
+  .nectar {
      stroke-dasharray: var(--tyrell-nectar);
   }
 }
-#lannister{
-  .outterMane{
+
+#lannister {
+  .outterMane {
      stroke-dasharray: var(--lannister-outterMane);
   }
-  .innerMane{
+  .innerMane {
      stroke-dasharray: var(--lannister-innerMane);
   }
-  .face{
+  .face {
      stroke-dasharray: var(--lannister-face);
   }
 }
-#stark{
-  .body{
+
+#stark {
+  .body {
      stroke-dasharray: var(--stark-body);
   }
-  .face{
+  .face {
      stroke-dasharray: var(--stark-face);
   }
 }
-#tully{
-  .body{
+
+#tully {
+  .body {
      stroke-dasharray: var(--tully-body);
   }
-  .parts{
+  .parts {
      stroke-dasharray: var(--tully-parts);
   }
 }
-#baratheon{
-  .face{
+
+#baratheon {
+  .face {
      stroke-dasharray: var(--baratheon-face);
   }
-  .eyeshears, .hornext{
+  .eyeshears,
+  .hornext {
      stroke-dasharray: var(--baratheon-x);
   }
 }
+

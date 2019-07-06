@@ -33,7 +33,10 @@ button#random_button:hover {
   display:none;
 }
 
-
+p#house_text {
+  font-size:36px;
+  text-align:center;
+}
 
 :root{
   --targaryen-face: 353.226;
